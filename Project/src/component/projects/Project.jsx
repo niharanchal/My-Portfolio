@@ -14,7 +14,7 @@ const Project = () => {
       title: "Portfolio",
       description:
         "I created a portfolio using React, leveraging several React packages to enhance its functionality and design. It highlights my skills, such as HTML, CSS, JavaScript, React, and MERN stack development, along with projects like an e-commerce app, a note app, and more. The portfolio also features a contact form to facilitate easy communication for anyone interested in reaching out to me.",
-        gitlink:"",
+        gitlink:"https://github.com/niharanchal/My-Portfolio",
     },
     {
       img: noteApp,
@@ -30,7 +30,7 @@ const Project = () => {
       title: "Sports Collection",
       description:
         "Developed a full-stack web application for exploring sports products like equipment, apparel, and accessories. Users can browse all products without authentication, but adding items to the cart requires login. The app includes secure user registration with hashed passwords and JWT-based authentication. Logged-in users can add products to their cart, view items, update quantities, and remove products, with cart data securely tied to their account and stored in a database for session persistence. Cart data is retrieved across devices upon login. A logout feature clears the JWT token, ensuring secure session termination. Built using React.js, Node.js, Express.js, MongoDB, and Tailwind CSS.",
-        gitlink:"",
+        gitlink:"https://github.com/niharanchal/Sports-Collections",
     },
   ];
 

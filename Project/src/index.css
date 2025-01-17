@@ -554,11 +554,15 @@ html::-webkit-scrollbar-thumb{
     flex-wrap: wrap;
 }
 .link{
-    object-fit: cover;
-    height: 3rem;
-    width: 3rem;
+    /* object-fit: center; */
+    height: 2.5rem;
+    width: 2.5rem;
     margin: 0 0.75rem;
     cursor: pointer;
+    color: black;
+}
+.link:hover{
+    color: #e0e80e;
 }
 
 

@@ -4,6 +4,9 @@ import instagram from "../assets/instagram.png"
 import git from "../assets/git1.png"
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 // import { Link } from 'react-router-dom';
 
 
@@ -40,9 +43,9 @@ const Contact = () => {
                 <textarea name="message" id="" rows="5" placeholder='Enter your message' className='msg'></textarea>
                 <button type='submit' value="send" className="submitbtn">Submit</button>
                 <div className="links">
-                    <a href="https://www.linkedin.com/in/nihar-anchal-13a172216/" target='blank'><img src={linkedin} alt="Linkedin" className="link" /></a>
-                    <img src={instagram} alt="Instagram" className="link" />
-                    <a href="https://github.com/niharanchal?tab=repositories" target='blank'><img src={git} alt="Git" className="link" /></a>
+                    <a href="https://www.linkedin.com/in/nihar-anchal-13a172216/" target='blank'><FaLinkedin className='link' /></a>
+                    <FaInstagram className='link' />
+                    <a href="https://github.com/niharanchal?tab=repositories" target='blank'><FaGithub className='link' /></a>
                 </div>
             </form>
 
