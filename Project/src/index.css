@@ -156,16 +156,6 @@ html::-webkit-scrollbar-thumb{
     font-size: medium;
     font-weight: 200;
 }
- /* .btn{  
-    background-color: white;
-    color: black;
-    margin: 1rem 0;
-    padding: 0.75rem 1.5rem;
-    font-weight: 700;
-    border-radius: 2rem;
-    border: none;
-    cursor: pointer;
-} */
 .button {
     --color: white;
     padding: 0.5em 1.3em;
@@ -481,8 +471,84 @@ html::-webkit-scrollbar-thumb{
     color: #ff6347; /* Change color to red on hover */
     text-decoration: underline; /* Underline effect on hover */
   }
+  @media (max-width: 320px) {
+    /* Styles for 320px screens */
+    .modal-content {
+      padding: 20px; 
+    }
+  
+    .modal-title {
+      font-size: 1.2rem;
+    }
+  
+    .modal-desc {
+      font-size: 0.8rem;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .modal-content {
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 90%;
+      width: 100%;
+    }
+    
+    .close {
+      top: 10px;
+      right: 15px;
+      font-size: 1.5rem;
+    }
+    .modal-title {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+    
+    .modal-desc {
+      font-size: 1rem;
+      max-width: 100%;
+    }
+    
+    .git {
+      font-size: 1rem;
+    }
+  }
   
   
+    .modal-title {
+      font-size: 1.4rem;
+    }
+  
+    .modal-desc {
+      font-size: 0.9rem;
+    }
+  
+  @media (max-width: 767px) {
+    /* Styles for small screens */
+    .modal-content {
+      max-width: 100%;
+      width: 95%;
+    }
+  
+    .modal-title {
+      font-size: 1.5rem;
+    }
+  
+    .modal-desc {
+      font-size: 1rem;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Styles for medium screens */
+    .modal-content {
+      max-width: 600px;
+    }
+  }
+  @media (min-width: 992px) {
+    /* Styles for large screens */
+    .modal-content {
+      max-width: 800px;
+    }
+  }
   /* Project Images */
   .projectImg {
     cursor: pointer;
